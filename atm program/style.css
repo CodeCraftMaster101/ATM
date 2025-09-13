@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.atm {
+  background: #34495e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+input, button {
+  margin: 8px 0;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  cursor: pointer;
+}
+
+#cash-output {
+  margin-top: 10px;
+}
+
+.cash-note {
+  width: 60px;
+  margin: 5px;
+}
